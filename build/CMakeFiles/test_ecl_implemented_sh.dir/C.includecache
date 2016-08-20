@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/student.h
+ecl/ecl.h
+-
+stdio.h
+-
+
+/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/lib/student.c
+student.h
+/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/lib/student.h
+stdio.h
+-
+string.h
+-
+

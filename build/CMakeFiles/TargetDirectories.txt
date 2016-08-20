@@ -1,0 +1,8 @@
+/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles/rebuild_cache.dir
+/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles/edit_cache.dir
+/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles/install.dir
+/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles/list_install_components.dir
+/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles/test_ecl_implemented_sh.dir
+/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles/ecl_implemented_sh.dir
+/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles/install/strip.dir
+/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles/install/local.dir

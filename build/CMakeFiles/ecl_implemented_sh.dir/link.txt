@@ -1,0 +1,1 @@
+/usr/bin/cc  -O3 -DNDEBUG   CMakeFiles/ecl_implemented_sh.dir/src/main.c.o  -o ecl_implemented_sh -rdynamic libtest_ecl_implemented_sh.so /usr/lib/libecl.so.15.3 -Wl,-rpath,/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build 
