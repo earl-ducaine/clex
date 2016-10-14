@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh
+CMAKE_SOURCE_DIR = /home/rett/dev/common-lisp/clex
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build
+CMAKE_BINARY_DIR = /home/rett/dev/common-lisp/clex/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ecl_implemented_sh.dir/depend.make
@@ -57,18 +57,258 @@ include CMakeFiles/ecl_implemented_sh.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ecl_implemented_sh.dir/flags.make
 
+CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o: ../src/tblcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o   -c /home/rett/dev/common-lisp/clex/src/tblcmp.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/tblcmp.c > CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/tblcmp.c -o CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o: ../src/dfa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o   -c /home/rett/dev/common-lisp/clex/src/dfa.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/dfa.c > CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/dfa.c -o CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o: ../src/scan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o   -c /home/rett/dev/common-lisp/clex/src/scan.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/scan.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/scan.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/scan.c > CMakeFiles/ecl_implemented_sh.dir/src/scan.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/scan.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/scan.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/scan.c -o CMakeFiles/ecl_implemented_sh.dir/src/scan.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o: ../src/buf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o   -c /home/rett/dev/common-lisp/clex/src/buf.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/buf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/buf.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/buf.c > CMakeFiles/ecl_implemented_sh.dir/src/buf.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/buf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/buf.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/buf.c -o CMakeFiles/ecl_implemented_sh.dir/src/buf.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o: ../src/ccl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o   -c /home/rett/dev/common-lisp/clex/src/ccl.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/ccl.c > CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/ccl.c -o CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o: ../src/misc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o   -c /home/rett/dev/common-lisp/clex/src/misc.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/misc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/misc.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/misc.c > CMakeFiles/ecl_implemented_sh.dir/src/misc.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/misc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/misc.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/misc.c -o CMakeFiles/ecl_implemented_sh.dir/src/misc.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o: ../src/gen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o   -c /home/rett/dev/common-lisp/clex/src/gen.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/gen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/gen.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/gen.c > CMakeFiles/ecl_implemented_sh.dir/src/gen.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/gen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/gen.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/gen.c -o CMakeFiles/ecl_implemented_sh.dir/src/gen.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o: ../src/scanflags.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o   -c /home/rett/dev/common-lisp/clex/src/scanflags.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/scanflags.c > CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/scanflags.c -o CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o: ../src/skel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o   -c /home/rett/dev/common-lisp/clex/src/skel.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/skel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/skel.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/skel.c > CMakeFiles/ecl_implemented_sh.dir/src/skel.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/skel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/skel.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/skel.c -o CMakeFiles/ecl_implemented_sh.dir/src/skel.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o: ../src/yylex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o   -c /home/rett/dev/common-lisp/clex/src/yylex.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/yylex.c > CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/yylex.c -o CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o
+
+
 CMakeFiles/ecl_implemented_sh.dir/src/main.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
 CMakeFiles/ecl_implemented_sh.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/main.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/main.c.o   -c /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/main.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/main.c.o   -c /home/rett/dev/common-lisp/clex/src/main.c
 
 CMakeFiles/ecl_implemented_sh.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/main.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/src/main.c > CMakeFiles/ecl_implemented_sh.dir/src/main.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/main.c > CMakeFiles/ecl_implemented_sh.dir/src/main.c.i
 
 CMakeFiles/ecl_implemented_sh.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/main.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/src/main.c -o CMakeFiles/ecl_implemented_sh.dir/src/main.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/main.c -o CMakeFiles/ecl_implemented_sh.dir/src/main.c.s
 
 CMakeFiles/ecl_implemented_sh.dir/src/main.c.o.requires:
 
@@ -81,19 +321,351 @@ CMakeFiles/ecl_implemented_sh.dir/src/main.c.o.provides: CMakeFiles/ecl_implemen
 CMakeFiles/ecl_implemented_sh.dir/src/main.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/main.c.o
 
 
+CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o: ../src/tables.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o   -c /home/rett/dev/common-lisp/clex/src/tables.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/tables.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/tables.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/tables.c > CMakeFiles/ecl_implemented_sh.dir/src/tables.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/tables.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/tables.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/tables.c -o CMakeFiles/ecl_implemented_sh.dir/src/tables.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o: ../src/libyywrap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o   -c /home/rett/dev/common-lisp/clex/src/libyywrap.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/libyywrap.c > CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/libyywrap.c -o CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o: ../src/filter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o   -c /home/rett/dev/common-lisp/clex/src/filter.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/filter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/filter.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/filter.c > CMakeFiles/ecl_implemented_sh.dir/src/filter.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/filter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/filter.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/filter.c -o CMakeFiles/ecl_implemented_sh.dir/src/filter.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o: ../src/nfa.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o   -c /home/rett/dev/common-lisp/clex/src/nfa.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/nfa.c > CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/nfa.c -o CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o: ../src/regex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o   -c /home/rett/dev/common-lisp/clex/src/regex.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/regex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/regex.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/regex.c > CMakeFiles/ecl_implemented_sh.dir/src/regex.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/regex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/regex.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/regex.c -o CMakeFiles/ecl_implemented_sh.dir/src/regex.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o: ../src/tables_shared.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o   -c /home/rett/dev/common-lisp/clex/src/tables_shared.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/tables_shared.c > CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/tables_shared.c -o CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o: ../src/ecs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o   -c /home/rett/dev/common-lisp/clex/src/ecs.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/ecs.c > CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/ecs.c -o CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/options.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/options.c.o: ../src/options.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/options.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/options.c.o   -c /home/rett/dev/common-lisp/clex/src/options.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/options.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/options.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/options.c > CMakeFiles/ecl_implemented_sh.dir/src/options.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/options.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/options.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/options.c -o CMakeFiles/ecl_implemented_sh.dir/src/options.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/options.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/options.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/options.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/options.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/options.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/options.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/options.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/options.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o: ../src/parse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o   -c /home/rett/dev/common-lisp/clex/src/parse.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/parse.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/parse.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/parse.c > CMakeFiles/ecl_implemented_sh.dir/src/parse.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/parse.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/parse.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/parse.c -o CMakeFiles/ecl_implemented_sh.dir/src/parse.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o: ../src/sym.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o   -c /home/rett/dev/common-lisp/clex/src/sym.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/sym.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/sym.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/sym.c > CMakeFiles/ecl_implemented_sh.dir/src/sym.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/sym.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/sym.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/sym.c -o CMakeFiles/ecl_implemented_sh.dir/src/sym.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o: ../src/libmain.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o   -c /home/rett/dev/common-lisp/clex/src/libmain.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/libmain.c > CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/libmain.c -o CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o
+
+
+CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o: CMakeFiles/ecl_implemented_sh.dir/flags.make
+CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o: ../src/scanopt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o   -c /home/rett/dev/common-lisp/clex/src/scanopt.c
+
+CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/src/scanopt.c > CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.i
+
+CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/src/scanopt.c -o CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.s
+
+CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o.requires:
+
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o.requires
+
+CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o.provides: CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o.requires
+	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o.provides.build
+.PHONY : CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o.provides
+
+CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o.provides.build: CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o
+
+
 # Object files for target ecl_implemented_sh
 ecl_implemented_sh_OBJECTS = \
-"CMakeFiles/ecl_implemented_sh.dir/src/main.c.o"
+"CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/main.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/options.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o" \
+"CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o"
 
 # External object files for target ecl_implemented_sh
 ecl_implemented_sh_EXTERNAL_OBJECTS =
 
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o
 ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/main.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/options.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o
+ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o
 ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/build.make
 ecl_implemented_sh: libtest_ecl_implemented_sh.so
 ecl_implemented_sh: /usr/lib/libecl.so.15.3
 ecl_implemented_sh: CMakeFiles/ecl_implemented_sh.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ecl_implemented_sh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable ecl_implemented_sh"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ecl_implemented_sh.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -101,7 +673,29 @@ CMakeFiles/ecl_implemented_sh.dir/build: ecl_implemented_sh
 
 .PHONY : CMakeFiles/ecl_implemented_sh.dir/build
 
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/tblcmp.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/dfa.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/scan.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/buf.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/ccl.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/misc.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/gen.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/scanflags.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/skel.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/yylex.c.o.requires
 CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/main.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/tables.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/libyywrap.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/filter.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/nfa.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/regex.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/tables_shared.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/ecs.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/options.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/parse.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/sym.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/libmain.c.o.requires
+CMakeFiles/ecl_implemented_sh.dir/requires: CMakeFiles/ecl_implemented_sh.dir/src/scanopt.c.o.requires
 
 .PHONY : CMakeFiles/ecl_implemented_sh.dir/requires
 
@@ -110,6 +704,6 @@ CMakeFiles/ecl_implemented_sh.dir/clean:
 .PHONY : CMakeFiles/ecl_implemented_sh.dir/clean
 
 CMakeFiles/ecl_implemented_sh.dir/depend:
-	cd /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles/ecl_implemented_sh.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rett/dev/common-lisp/clex/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rett/dev/common-lisp/clex /home/rett/dev/common-lisp/clex /home/rett/dev/common-lisp/clex/build /home/rett/dev/common-lisp/clex/build /home/rett/dev/common-lisp/clex/build/CMakeFiles/ecl_implemented_sh.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ecl_implemented_sh.dir/depend
 

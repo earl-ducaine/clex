@@ -1,4 +1,4 @@
-# Install script for directory: /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh
+# Install script for directory: /home/rett/dev/common-lisp/clex
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,7 +47,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/lib" TYPE SHARED_LIBRARY FILES "/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/libtest_ecl_implemented_sh.so")
+file(INSTALL DESTINATION "/usr/lib" TYPE SHARED_LIBRARY FILES "/home/rett/dev/common-lisp/clex/build/libtest_ecl_implemented_sh.so")
   if(EXISTS "$ENV{DESTDIR}/usr/lib/libtest_ecl_implemented_sh.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/libtest_ecl_implemented_sh.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -64,5 +64,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rett/dev/common-lisp/clex/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

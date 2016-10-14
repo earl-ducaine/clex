@@ -6,15 +6,33 @@
 
 #IncludeRegexTransform: 
 
+../include/config.h
+
 ../include/student.h
 ecl/ecl.h
 -
 stdio.h
 -
 
-/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/lib/student.c
+/home/rett/dev/common-lisp/clex/lib/lib.c
+
+/home/rett/dev/common-lisp/clex/lib/malloc.c
+config.h
+-
+sys/types.h
+-
+
+/home/rett/dev/common-lisp/clex/lib/realloc.c
+config.h
+-
+stdlib.h
+-
+errno.h
+-
+
+/home/rett/dev/common-lisp/clex/lib/student.c
 student.h
-/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/lib/student.h
+/home/rett/dev/common-lisp/clex/lib/student.h
 stdio.h
 -
 string.h

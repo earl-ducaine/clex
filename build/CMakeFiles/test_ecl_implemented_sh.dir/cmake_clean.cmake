@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o"
+  "CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o"
   "CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o"
+  "CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o"
   "libtest_ecl_implemented_sh.pdb"
   "libtest_ecl_implemented_sh.so"
 )

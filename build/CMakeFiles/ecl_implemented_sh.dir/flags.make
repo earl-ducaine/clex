@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_FLAGS = -O3 -DNDEBUG  
 
-C_DEFINES = 
+C_DEFINES = -DHAVE_LIMITS_H -DHAVE_REGEX_H -DHAVE_SYS_WAIT_H -DM4=m4 -DSTDC_HEADERS
 
-C_INCLUDES = -I/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/include 
+C_INCLUDES = -I/home/rett/dev/common-lisp/clex/include 
 

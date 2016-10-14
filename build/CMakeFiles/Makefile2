@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh
+CMAKE_SOURCE_DIR = /home/rett/dev/common-lisp/clex
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build
+CMAKE_BINARY_DIR = /home/rett/dev/common-lisp/clex/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/test_ecl_implemented_sh.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/sr
 CMakeFiles/test_ecl_implemented_sh.dir/all:
 	$(MAKE) -f CMakeFiles/test_ecl_implemented_sh.dir/build.make CMakeFiles/test_ecl_implemented_sh.dir/depend
 	$(MAKE) -f CMakeFiles/test_ecl_implemented_sh.dir/build.make CMakeFiles/test_ecl_implemented_sh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles --progress-num=3,4 "Built target test_ecl_implemented_sh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=25,26,27,28,29 "Built target test_ecl_implemented_sh"
 .PHONY : CMakeFiles/test_ecl_implemented_sh.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/test_ecl_implemented_sh.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_ecl_implemented_sh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rett/dev/common-lisp/clex/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_ecl_implemented_sh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rett/dev/common-lisp/clex/build/CMakeFiles 0
 .PHONY : CMakeFiles/test_ecl_implemented_sh.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/test_ecl_implemented_sh.dir/clean
 CMakeFiles/ecl_implemented_sh.dir/all: CMakeFiles/test_ecl_implemented_sh.dir/all
 	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/depend
 	$(MAKE) -f CMakeFiles/ecl_implemented_sh.dir/build.make CMakeFiles/ecl_implemented_sh.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles --progress-num=1,2 "Built target ecl_implemented_sh"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Built target ecl_implemented_sh"
 .PHONY : CMakeFiles/ecl_implemented_sh.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/ecl_implemented_sh.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ecl_implemented_sh.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rett/dev/common-lisp/clex/build/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ecl_implemented_sh.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rett/dev/common-lisp/clex/build/CMakeFiles 0
 .PHONY : CMakeFiles/ecl_implemented_sh.dir/rule
 
 # Convenience name for target.

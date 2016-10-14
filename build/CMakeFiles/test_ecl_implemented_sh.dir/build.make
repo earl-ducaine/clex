@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh
+CMAKE_SOURCE_DIR = /home/rett/dev/common-lisp/clex
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build
+CMAKE_BINARY_DIR = /home/rett/dev/common-lisp/clex/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_ecl_implemented_sh.dir/depend.make
@@ -57,18 +57,66 @@ include CMakeFiles/test_ecl_implemented_sh.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test_ecl_implemented_sh.dir/flags.make
 
+CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o: CMakeFiles/test_ecl_implemented_sh.dir/flags.make
+CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o: ../lib/lib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o   -c /home/rett/dev/common-lisp/clex/lib/lib.c
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/lib/lib.c > CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.i
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/lib/lib.c -o CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.s
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o.requires:
+
+.PHONY : CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o.requires
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o.provides: CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o.requires
+	$(MAKE) -f CMakeFiles/test_ecl_implemented_sh.dir/build.make CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o.provides.build
+.PHONY : CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o.provides
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o.provides.build: CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o
+
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o: CMakeFiles/test_ecl_implemented_sh.dir/flags.make
+CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o: ../lib/realloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o   -c /home/rett/dev/common-lisp/clex/lib/realloc.c
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/lib/realloc.c > CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.i
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/lib/realloc.c -o CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.s
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o.requires:
+
+.PHONY : CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o.requires
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o.provides: CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o.requires
+	$(MAKE) -f CMakeFiles/test_ecl_implemented_sh.dir/build.make CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o.provides.build
+.PHONY : CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o.provides
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o.provides.build: CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o
+
+
 CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o: CMakeFiles/test_ecl_implemented_sh.dir/flags.make
 CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o: ../lib/student.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o   -c /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/lib/student.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o   -c /home/rett/dev/common-lisp/clex/lib/student.c
 
 CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/lib/student.c > CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/lib/student.c > CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.i
 
 CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/lib/student.c -o CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/lib/student.c -o CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.s
 
 CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o.requires:
 
@@ -81,17 +129,47 @@ CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o.provides: CMakeFiles/test
 CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o.provides.build: CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o
 
 
+CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o: CMakeFiles/test_ecl_implemented_sh.dir/flags.make
+CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o: ../lib/malloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o   -c /home/rett/dev/common-lisp/clex/lib/malloc.c
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rett/dev/common-lisp/clex/lib/malloc.c > CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.i
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rett/dev/common-lisp/clex/lib/malloc.c -o CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.s
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o.requires:
+
+.PHONY : CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o.requires
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o.provides: CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o.requires
+	$(MAKE) -f CMakeFiles/test_ecl_implemented_sh.dir/build.make CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o.provides.build
+.PHONY : CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o.provides
+
+CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o.provides.build: CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o
+
+
 # Object files for target test_ecl_implemented_sh
 test_ecl_implemented_sh_OBJECTS = \
-"CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o"
+"CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o" \
+"CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o" \
+"CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o" \
+"CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o"
 
 # External object files for target test_ecl_implemented_sh
 test_ecl_implemented_sh_EXTERNAL_OBJECTS =
 
+libtest_ecl_implemented_sh.so: CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o
+libtest_ecl_implemented_sh.so: CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o
 libtest_ecl_implemented_sh.so: CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o
+libtest_ecl_implemented_sh.so: CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o
 libtest_ecl_implemented_sh.so: CMakeFiles/test_ecl_implemented_sh.dir/build.make
 libtest_ecl_implemented_sh.so: CMakeFiles/test_ecl_implemented_sh.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library libtest_ecl_implemented_sh.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rett/dev/common-lisp/clex/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libtest_ecl_implemented_sh.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_ecl_implemented_sh.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +177,10 @@ CMakeFiles/test_ecl_implemented_sh.dir/build: libtest_ecl_implemented_sh.so
 
 .PHONY : CMakeFiles/test_ecl_implemented_sh.dir/build
 
+CMakeFiles/test_ecl_implemented_sh.dir/requires: CMakeFiles/test_ecl_implemented_sh.dir/lib/lib.c.o.requires
+CMakeFiles/test_ecl_implemented_sh.dir/requires: CMakeFiles/test_ecl_implemented_sh.dir/lib/realloc.c.o.requires
 CMakeFiles/test_ecl_implemented_sh.dir/requires: CMakeFiles/test_ecl_implemented_sh.dir/lib/student.c.o.requires
+CMakeFiles/test_ecl_implemented_sh.dir/requires: CMakeFiles/test_ecl_implemented_sh.dir/lib/malloc.c.o.requires
 
 .PHONY : CMakeFiles/test_ecl_implemented_sh.dir/requires
 
@@ -108,6 +189,6 @@ CMakeFiles/test_ecl_implemented_sh.dir/clean:
 .PHONY : CMakeFiles/test_ecl_implemented_sh.dir/clean
 
 CMakeFiles/test_ecl_implemented_sh.dir/depend:
-	cd /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build /home/rett/dev/unix-history-repo/unix-history-repo-git/usr/src/cmd/sh/build/CMakeFiles/test_ecl_implemented_sh.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rett/dev/common-lisp/clex/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rett/dev/common-lisp/clex /home/rett/dev/common-lisp/clex /home/rett/dev/common-lisp/clex/build /home/rett/dev/common-lisp/clex/build /home/rett/dev/common-lisp/clex/build/CMakeFiles/test_ecl_implemented_sh.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_ecl_implemented_sh.dir/depend
 

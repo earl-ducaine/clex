@@ -11,6 +11,12 @@
 #  .   \-- Student.cpp
 #  3 directories, 3 files
 
+add_definitions(-DSTDC_HEADERS)
+add_definitions(-DHAVE_REGEX_H)
+add_definitions(-DHAVE_SYS_WAIT_H)
+add_definitions(-DM4=m4)
+add_definitions(-DHAVE_LIMITS_H)
+
 
 
 cmake_minimum_required(VERSION 2.8.9)
@@ -29,6 +35,11 @@ include_directories(include)
 file(GLOB LIB_SOURCES "lib/*.c")
 file(GLOB SOURCES "src/*.c")
 
+file(GLOB flex_SOURCES "src/*.c")
+
+
+
+
 #Generate the shared library from the sources
 add_library(test_ecl_implemented_sh SHARED ${LIB_SOURCES})
 
@@ -39,3 +50,5 @@ install(TARGETS test_ecl_implemented_sh DESTINATION /usr/lib)
 add_executable(ecl_implemented_sh ${SOURCES})
 
 target_link_libraries(ecl_implemented_sh test_ecl_implemented_sh /usr/lib/libecl.so.15.3 )
+
+target_link_libraries(ecl_implemented_sh m)
